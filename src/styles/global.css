@@ -1,0 +1,57 @@
+/* Fonts */
+@font-face {
+  font-family: "CascadiaCode";
+  src: url("../assets/fonts/Cascadia_Code/static/CascadiaCode-Regular.ttf") format("truetype");
+}
+
+/* Main Styles */
+body {
+  margin: 0;
+  background-color: #17191a !important;
+  color: #aea597 !important;
+  font-family: "CascadiaCode", monospace !important;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.modal-header {
+  border-bottom: 1px solid #82796b !important;
+}
+.modal-footer {
+  border-top: 1px solid #82796b !important;
+}
+.modal-content {
+  background-color: #17191a !important;
+  color: #aea597 !important;
+  border: 1px solid #82796b !important;
+}
+textarea,
+input,
+select,
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  font-size: 13px;
+  color: #aea597 !important;
+  background-color: #25292a !important;
+  border: 1px solid #82796b !important;
+}
+::placeholder {
+  color: #6f6862 !important;
+}
+.btn-close {
+  filter: invert(60%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(80%);
+}
+.tableHeader {
+  background-color: black !important;
+}
+
+/* Disabled Link (header) */
+.disabled-link {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
