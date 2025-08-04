@@ -4,11 +4,12 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="container p-2">
-      <div className="row">
+    <>
+      <Navbar />
+      <div className="container">
         <Hero />
       </div>
-    </div>
+    </>
   );
 }
 
