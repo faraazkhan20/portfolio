@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
-        <a className="navbar-brand fw-semibold" href="#" style={{ letterSpacing: "-1px" }}>
+        <a className="navbar-brand fw-semibold" href="#" style={{ letterSpacing: "-0.8px" }}>
           Faraaz Khan
         </a>
 

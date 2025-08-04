@@ -6,7 +6,7 @@ function Hero() {
       </div>
       <div className="fs-4 fw-semibold pb-2">Junior Software Developer</div>
       <p className="px-0 px-md-5">I am a skilled and innovative developer with a passion for crafting efficient and user-centric solutions. With a strong foundation in web development and a commitment to excellence, I continuously strive to deliver impactful projects that blend creativity with functionality.</p>
-      <button className="btn btn-lg btn-outline-primary">
+      <button className="btn btn-md btn-outline-primary">
         Say Hello! <i class="fas fa-paper-plane"></i>
       </button>
     </div>
