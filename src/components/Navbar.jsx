@@ -2,14 +2,15 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
-        <a className="navbar-brand fw-semibold" href="#" style={{ letterSpacing: "-0.8px" }}>
+        <a className="navbar-brand fw-semibold" href="#" style={{ letterSpacing: "-0.6px" }}>
           Faraaz Khan
         </a>
 
         {/* Toggle Button for Offcanvas */}
-        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        {/* <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
+        <span className="navbar-toggler navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"></span>
 
         {/* Offcanvas Menu */}
         <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style={{ backgroundColor: "black", borderRight: "2px solid #27272a" }}>
@@ -42,8 +43,18 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link pe-0" href="#">
+                <a className="nav-link" href="#">
                   Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Profiles
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link pe-0" href="#">
+                  Contact Me
                 </a>
               </li>
             </ul>
