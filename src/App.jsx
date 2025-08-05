@@ -6,18 +6,22 @@ import ReactOutToMe from "./components/ReachOutToMe";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className="container custom-width mb-5">
+      <div className="container custom-width">
         <Aero />
         <AboutMe />
         <ReactOutToMe />
         <Experience />
         <Projects />
         <Skills />
+        <ContactMe />
+        <Footer />
       </div>
     </>
   );
