@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import ReactOutToMe from "./components/ReachOutToMe";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <ReactOutToMe />
         <Experience />
         <Projects />
+        <Skills />
       </div>
     </>
   );

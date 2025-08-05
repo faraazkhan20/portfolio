@@ -44,3 +44,8 @@ body {
     width: 50%;
   }
 }
+
+.badge {
+  font-size: 12px;
+  font-weight: 400;
+}
