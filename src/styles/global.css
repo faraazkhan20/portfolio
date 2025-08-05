@@ -12,7 +12,7 @@ body {
   font-family: "Geist", "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: -0.5px;
   overflow-x: hidden;
 }
@@ -20,6 +20,27 @@ body {
 .section {
   background-color: #0d0d0d;
   border: 2px solid #27272a;
+  color: #fafafa !important;
   border-radius: 15px;
   opacity: 1;
+}
+
+/* TEST */
+.custom-width {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .custom-width {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .custom-width {
+    width: 75%;
+  }
+}
+@media (min-width: 992px) {
+  .custom-width {
+    width: 50%;
+  }
 }

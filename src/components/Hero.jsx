@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="col-lg-12 p-5 px-md-4 px-sm-3 px-xs-2 text-center section">
+    <div className="col-lg-12 p-5 px-md-4 px-sm-3 px-xs-2 text-center section mt-5">
       <div className="fs-1 fw-semibold" style={{ letterSpacing: "-0.6px" }}>
         Faraaz Khan
       </div>

@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
-      <div className="container">
+      <div className="container custom-width">
         <a className="navbar-brand fw-semibold" href="#" style={{ letterSpacing: "-0.6px" }}>
           Faraaz Khan
         </a>
@@ -42,16 +42,16 @@ function Navbar() {
                   Experience
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
                   Projects
                 </a>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
                   Profiles
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link pe-0" href="#">
                   Contact Me
