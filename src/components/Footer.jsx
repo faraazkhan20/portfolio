@@ -6,16 +6,16 @@ function Footer() {
       </button> */}
 
       <div id="fixedAtBottom" className="container p-4 d-flex justify-content-center gap-3 bg-dark rounded-4 shadow">
-        <a href="https://github.com/tanayvaswani" target="_blank" className="text-decoration-none text-secondary d-inline-flex align-items-center gap-2">
+        <a href="https://github.com/faraazkhan20/" target="_blank" className="text-decoration-none text-secondary d-inline-flex align-items-center gap-2">
           <i className="fab fa-github fa-lg" />
         </a>
-        <a href="https://www.linkedin.com/in/tanayvaswani/" target="_blank" className="text-decoration-none text-secondary d-inline-flex align-items-center gap-2">
+        <a href="https://www.linkedin.com/in/faraazkhan20/  " target="_blank" className="text-decoration-none text-secondary d-inline-flex align-items-center gap-2">
           <i className="fab fa-linkedin fa-lg" />
         </a>
-        <a href="https://twitter.com/iTanayVaswani" target="_blank" className="text-decoration-none text-secondary d-inline-flex align-items-center gap-2">
+        <a href="https://x.com/faraazkhan_20" target="_blank" className="text-decoration-none text-secondary d-inline-flex align-items-center gap-2">
           <i className="fab fa-x-twitter fa-lg" />
         </a>
-        <a href="https://medium.com/@tanayvaswani" target="_blank" className="text-decoration-none text-secondary d-inline-flex align-items-center gap-2">
+        <a href="https://medium.com/@faraazkhan" target="_blank" className="text-decoration-none text-secondary d-inline-flex align-items-center gap-2">
           <i className="fab fa-medium fa-lg" />
         </a>
         <a href="mailto:vaswani.tanay9@gmail.com" className="text-decoration-none text-secondary d-inline-flex align-items-center gap-2">
