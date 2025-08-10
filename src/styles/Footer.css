@@ -1,3 +1,7 @@
+#footer-top-border {
+  border-top: 2px solid #27272a;
+}
+
 #fixed-social-bar {
   display: block;
   width: auto;
