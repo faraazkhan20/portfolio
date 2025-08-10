@@ -1,0 +1,12 @@
+#fixed-social-bar {
+  display: block;
+  width: auto;
+  position: fixed;
+  bottom: 1%;
+  right: 50%;
+  transform: translateX(50%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}

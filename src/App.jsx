@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-// import Hero from "./components/Hero";
+import Hero from "./components/Hero";
 import Aero from "./components/Aero";
 import AboutMe from "./components/AboutMe";
 import ReactOutToMe from "./components/ReachOutToMe";
@@ -14,6 +14,7 @@ function App() {
     <>
       <Navbar />
       <div className="container custom-width">
+        {/* <Hero /> */}
         <Aero />
         <AboutMe />
         <ReactOutToMe />
