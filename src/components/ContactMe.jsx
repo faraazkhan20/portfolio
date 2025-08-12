@@ -6,20 +6,19 @@ function ContactMe() {
     <div className="card shadow-sm rounded-4 my-5 section">
       <div className="card-body p-4">
         <div className="d-flex align-items-center mb-4 gap-3">
-          {/* <img src="tanay.jpeg" alt="Tanay" width={42} height={42} className="rounded-circle border border-white" /> */}
           <img src={defaultImage} alt="Profile" width={40} height={45} className="rounded-circle border border-white" />
           <div>
-            <h6 className="mb-0 fw-semibold">Tanay Vaswani</h6>
-            <small className="text-muted">@iTanayVaswani · 24th Sep</small>
+            <h6 className="mb-0 fw-semibold">Faraaz Khan</h6>
+            <small className="text-secondary">@faraazkhan_20 · 24th Sep</small>
           </div>
         </div>
         <p className="text-secondary">Subscribe by entering your email below to stay updated about the latest things I've created and discover the great finds I've come across on the internet.</p>
         <form className="row g-2 align-items-center">
           <div className="col-md-4">
-            <input type="text" className="form-control form-control-sm bg-black text-white" placeholder="John Doe" name="name" />
+            <input type="text" className="form-control form-control-sm text-white" placeholder="John Doe" name="name" />
           </div>
           <div className="col-md-5">
-            <input type="email" className="form-control form-control-sm bg-black text-white" placeholder="your@email.com" name="email" />
+            <input type="email" className="form-control form-control-sm text-white" placeholder="your@email.com" name="email" />
           </div>
           <div className="col-md-3">
             <button type="submit" className="btn btn-sm btn-light w-100">

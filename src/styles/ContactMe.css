@@ -1,3 +1,27 @@
 #schedule-call-top-border {
   border-top: 2px solid #27272a;
 }
+
+input[name="name"] {
+  background-color: #0a0a0a;
+  border: 2px solid #27272a;
+}
+input[name="name"]:focus {
+  background-color: #0a0a0a;
+  border: 2px solid #27272a;
+}
+input[name="name"]::placeholder {
+  color: #6c757d;
+}
+
+input[name="email"] {
+  background-color: #0a0a0a;
+  border: 2px solid #27272a;
+}
+input[name="email"]:focus {
+  background-color: #0a0a0a;
+  border: 2px solid #27272a;
+}
+input[name="email"]::placeholder {
+  color: #6c757d;
+}
