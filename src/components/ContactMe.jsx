@@ -1,3 +1,4 @@
+import "../styles/ContactMe.css";
 import defaultImage from "../assets/images/default.jpg";
 
 function ContactMe() {
@@ -6,7 +7,7 @@ function ContactMe() {
       <div className="card-body p-4">
         <div className="d-flex align-items-center mb-4 gap-3">
           {/* <img src="tanay.jpeg" alt="Tanay" width={42} height={42} className="rounded-circle border border-white" /> */}
-          <img src={defaultImage} alt="Profile" width={42} height={45} className="rounded-circle border border-white" />
+          <img src={defaultImage} alt="Profile" width={40} height={45} className="rounded-circle border border-white" />
           <div>
             <h6 className="mb-0 fw-semibold">Tanay Vaswani</h6>
             <small className="text-muted">@iTanayVaswani · 24th Sep</small>
@@ -27,7 +28,7 @@ function ContactMe() {
           </div>
         </form>
       </div>
-      <div className="card-footer bg-transparent border-top border-dashed p-4">
+      <div id="schedule-call-top-border" className="card-footer bg-transparent border-dashed p-4">
         <div className="row g-3 align-items-center">
           <div className="col-md-9">
             <p className="mb-0 text-secondary">Alternatively, you can schedule a call with me to discuss anything you'd like. I'm always open to new ideas and opportunities.</p>
