@@ -13,6 +13,11 @@ input[name="name"]:focus {
 input[name="name"]::placeholder {
   color: #6c757d;
 }
+input[name="name"]:-webkit-autofill {
+  background-color: #0d0d0d !important;
+  -webkit-box-shadow: 0 0 0 1000px #0d0d0d inset !important;
+  -webkit-text-fill-color: white !important;
+}
 
 input[name="email"] {
   background-color: #0a0a0a;
@@ -24,4 +29,9 @@ input[name="email"]:focus {
 }
 input[name="email"]::placeholder {
   color: #6c757d;
+}
+input[name="email"]:-webkit-autofill {
+  background-color: #0d0d0d !important;
+  -webkit-box-shadow: 0 0 0 1000px #0d0d0d inset !important;
+  -webkit-text-fill-color: white !important;
 }
