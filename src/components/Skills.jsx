@@ -25,6 +25,7 @@ function Skills() {
             <span className="badge border border-secondary">React.js</span>
             {/* <span className="badge border border-secondary">Next.js</span> */}
             <span className="badge border border-secondary">Tailwind CSS</span>
+            <span className="badge border border-secondary">AngularJS</span>
             {/* <span className="badge border border-secondary">Shadcn</span> */}
             {/* <span className="badge border border-secondary">Tanstack Query</span> */}
           </div>
